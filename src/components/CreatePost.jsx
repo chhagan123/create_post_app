@@ -19,6 +19,14 @@ const handleSubmit =(event) => {
   const reactions = reactionElement.current.value;
   const tags = tagsElement.current.value.split(" ")
 
+  userIdElement.current.value=""
+  postTitleElement.current.value=""
+  postBodyElement.current.value=""
+  reactionElement.current.value=""
+  tagsElement.current.value=""
+
+
+
   addPost(userId,postTitle,postBody,reactions,tags);
   
 

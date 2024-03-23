@@ -24,6 +24,14 @@ const DEFAULT_POST_LIST = [{
     reaction:'15',
     userId:'user-12',
     tags:["unbelevable","done"]
+},
+{
+    id:"4",
+    title:'pass ho gaye',
+    body:' hi freiends i going to vacation.Hope to enjoy a lot',
+    reaction:'15',
+    userId:'user-12',
+    tags:["unbelevable","done"]
 }
 ]
 
